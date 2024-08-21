@@ -40,7 +40,7 @@ section {
     margin: 20px 0;
 }
 
-.about, .skills {
+.about, .skills, .projects, .contact {
     margin: auto;
     max-width: 800px;
 }
@@ -56,6 +56,71 @@ section {
     margin: 5px 0;
     padding: 10px;
 }
+
+.projects .project {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.contact form input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact form textarea {
+    grid-column: span 2;
+}
+
+.contact form button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
